@@ -41,4 +41,3 @@ const { chromium } = createRequire(import.meta.url)("playwright-core");
     await browser.close();
   }
 })().catch((error) => { console.error(error); process.exitCode = 1; });
-
