@@ -190,6 +190,7 @@ const demos: Record<string, ComponentType> = {
   "helpful-prompt": dynamic(() => import("./components/helpful-prompt")),
   "back-to-top": dynamic(() => import("./components/back-to-top")),
   "share-button": dynamic(() => import("./components/share-button")),
+  "autosave-status": dynamic(() => import("./components/autosave-status")),
   // new-component:entries
 };
 

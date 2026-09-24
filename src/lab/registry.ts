@@ -1603,6 +1603,15 @@ export const lab: LabEntry[] = [
     keywords: "share link copy social x twitter email native",
     previewScale: 1.05,
   },
+  {
+    slug: "autosave-status",
+    isNew: true,
+    name: "Autosave status",
+    category: "feedback",
+    description: "A dot for unsaved changes splits into three while saving, then gathers into a check.",
+    keywords: "autosave saving saved status editor indicator draft",
+    previewScale: 0.7,
+  },
   // new-component:entries
 ];
 
