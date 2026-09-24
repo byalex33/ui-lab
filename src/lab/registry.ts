@@ -1612,6 +1612,15 @@ export const lab: LabEntry[] = [
     keywords: "autosave saving saved status editor indicator draft",
     previewScale: 0.7,
   },
+  {
+    slug: "reactions",
+    isNew: true,
+    name: "Reactions",
+    category: "cards",
+    description: "Tap a reaction to add yours, or pick one and watch it fly into its pill as the count rolls.",
+    keywords: "reactions emoji picker chat message like count slack",
+    previewScale: 0.7,
+  },
   // new-component:entries
 ];
 

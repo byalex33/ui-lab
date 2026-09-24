@@ -183,6 +183,7 @@ import HelpfulPromptDemo from "./components/helpful-prompt";
 import BackToTopDemo from "./components/back-to-top";
 import ShareButtonDemo from "./components/share-button";
 import AutosaveStatusDemo from "./components/autosave-status";
+import ReactionsDemo from "./components/reactions";
 // new-component:imports
 
 // The index shows every demo at once, so one static bundle beats 27 separate
@@ -372,5 +373,6 @@ export const previews: Record<string, ComponentType> = {
   "back-to-top": BackToTopDemo,
   "share-button": ShareButtonDemo,
   "autosave-status": AutosaveStatusDemo,
+  "reactions": ReactionsDemo,
   // new-component:entries
 };
