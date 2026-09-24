@@ -179,6 +179,8 @@ import CallWidgetDemo from "./components/call-widget";
 import LogoOrbitDemo from "./components/logo-orbit";
 import NowPlayingDemo from "./components/now-playing";
 import UptimeBarDemo from "./components/uptime-bar";
+import HelpfulPromptDemo from "./components/helpful-prompt";
+import BackToTopDemo from "./components/back-to-top";
 // new-component:imports
 
 // The index shows every demo at once, so one static bundle beats 27 separate
@@ -364,5 +366,7 @@ export const previews: Record<string, ComponentType> = {
   "logo-orbit": LogoOrbitDemo,
   "now-playing": NowPlayingDemo,
   "uptime-bar": UptimeBarDemo,
+  "helpful-prompt": HelpfulPromptDemo,
+  "back-to-top": BackToTopDemo,
   // new-component:entries
 };

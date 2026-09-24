@@ -1576,6 +1576,24 @@ export const lab: LabEntry[] = [
     keywords: "uptime status page incidents monitoring history tooltip",
     previewScale: 0.65,
   },
+  {
+    slug: "helpful-prompt",
+    isNew: true,
+    name: "Helpful prompt",
+    category: "feedback",
+    description: "Asks if the page helped, and on a no opens into a field right where the question was.",
+    keywords: "feedback helpful docs rating survey thumbs yes no",
+    previewScale: 0.8,
+  },
+  {
+    slug: "back-to-top",
+    isNew: true,
+    name: "Back to top",
+    category: "navigation",
+    description: "Fills its ring as you read, and when you press it the arrow lifts off while the page glides back up.",
+    keywords: "back to top scroll progress ring button article reading",
+    previewScale: 0.45,
+  },
   // new-component:entries
 ];
 

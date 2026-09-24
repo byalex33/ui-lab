@@ -187,6 +187,8 @@ const demos: Record<string, ComponentType> = {
   "logo-orbit": dynamic(() => import("./components/logo-orbit")),
   "now-playing": dynamic(() => import("./components/now-playing")),
   "uptime-bar": dynamic(() => import("./components/uptime-bar")),
+  "helpful-prompt": dynamic(() => import("./components/helpful-prompt")),
+  "back-to-top": dynamic(() => import("./components/back-to-top")),
   // new-component:entries
 };
 
