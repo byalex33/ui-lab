@@ -184,6 +184,7 @@ import BackToTopDemo from "./components/back-to-top";
 import ShareButtonDemo from "./components/share-button";
 import AutosaveStatusDemo from "./components/autosave-status";
 import ReactionsDemo from "./components/reactions";
+import ShortcutRecorderDemo from "./components/shortcut-recorder";
 // new-component:imports
 
 // The index shows every demo at once, so one static bundle beats 27 separate
@@ -374,5 +375,6 @@ export const previews: Record<string, ComponentType> = {
   "share-button": ShareButtonDemo,
   "autosave-status": AutosaveStatusDemo,
   "reactions": ReactionsDemo,
+  "shortcut-recorder": ShortcutRecorderDemo,
   // new-component:entries
 };

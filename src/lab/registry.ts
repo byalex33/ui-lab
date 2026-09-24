@@ -1621,6 +1621,15 @@ export const lab: LabEntry[] = [
     keywords: "reactions emoji picker chat message like count slack",
     previewScale: 0.7,
   },
+  {
+    slug: "shortcut-recorder",
+    isNew: true,
+    name: "Shortcut recorder",
+    category: "inputs",
+    description: "Press keys to set a shortcut: keycaps appear as you hold them, and it tells you when a combo is taken.",
+    keywords: "shortcut hotkey keybinding recorder keyboard settings keycap",
+    previewScale: 0.75,
+  },
   // new-component:entries
 ];
 
