@@ -8,7 +8,6 @@ import {
   useSyncExternalStore,
 } from "react";
 import { cn } from "@/lib/cn";
-import { SEARCH_EVENT, SEARCH_HASH } from "./header-search";
 
 type Entry = {
   name: string;
@@ -83,23 +82,6 @@ export function LabSearch({
     };
     document.addEventListener("keydown", onKeyDown);
     return () => document.removeEventListener("keydown", onKeyDown);
-  }, []);
-
-  // The header's search button, or arriving from another page at /#search.
-  useEffect(() => {
-    const focus = () => {
-      const input = inputRef.current;
-      if (!input) return;
-      input.focus({ preventScroll: true });
-      input.scrollIntoView({ block: "center", behavior: "smooth" });
-    };
-    if (location.hash === SEARCH_HASH) {
-      history.replaceState(history.state, "", location.pathname + location.search);
-      // After the index has restored its scroll position.
-      requestAnimationFrame(focus);
-    }
-    window.addEventListener(SEARCH_EVENT, focus);
-    return () => window.removeEventListener(SEARCH_EVENT, focus);
   }, []);
 
   // Every word has to appear somewhere, in any order, so "drag card" finds

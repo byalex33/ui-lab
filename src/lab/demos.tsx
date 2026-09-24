@@ -189,6 +189,7 @@ const demos: Record<string, ComponentType> = {
   "uptime-bar": dynamic(() => import("./components/uptime-bar")),
   "helpful-prompt": dynamic(() => import("./components/helpful-prompt")),
   "back-to-top": dynamic(() => import("./components/back-to-top")),
+  "share-button": dynamic(() => import("./components/share-button")),
   // new-component:entries
 };
 

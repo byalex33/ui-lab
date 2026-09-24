@@ -1594,6 +1594,15 @@ export const lab: LabEntry[] = [
     keywords: "back to top scroll progress ring button article reading",
     previewScale: 0.45,
   },
+  {
+    slug: "share-button",
+    isNew: true,
+    name: "Share button",
+    category: "buttons",
+    description: "Opens in place into copy, X and email, and the link turns into a check when it is copied.",
+    keywords: "share link copy social x twitter email native",
+    previewScale: 1.05,
+  },
   // new-component:entries
 ];
 

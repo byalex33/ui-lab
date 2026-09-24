@@ -181,6 +181,7 @@ import NowPlayingDemo from "./components/now-playing";
 import UptimeBarDemo from "./components/uptime-bar";
 import HelpfulPromptDemo from "./components/helpful-prompt";
 import BackToTopDemo from "./components/back-to-top";
+import ShareButtonDemo from "./components/share-button";
 // new-component:imports
 
 // The index shows every demo at once, so one static bundle beats 27 separate
@@ -368,5 +369,6 @@ export const previews: Record<string, ComponentType> = {
   "uptime-bar": UptimeBarDemo,
   "helpful-prompt": HelpfulPromptDemo,
   "back-to-top": BackToTopDemo,
+  "share-button": ShareButtonDemo,
   // new-component:entries
 };
