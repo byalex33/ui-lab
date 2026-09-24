@@ -10,6 +10,7 @@ const { chromium } = createRequire(import.meta.url)(process.argv[3] || 'playwrig
       const page = await browser.newPage({ viewport: { width, height: 900 } });
       await page.clock.install();
       await page.goto(`${process.argv[2] || 'http://localhost:3000'}/lab/logo-orbit`);
+      await page.waitForFunction(() => document.querySelector('main button[aria-label="React"]')?.parentElement.style.transform);
       await page.clock.runFor(100);
       // 64 seconds covers the slower ring's complete lap.
       for (let elapsed = 0; elapsed < 64000; elapsed += 500) {
