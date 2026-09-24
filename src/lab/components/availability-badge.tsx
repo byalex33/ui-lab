@@ -382,7 +382,7 @@ export function AvailabilityBadge({
                   {[0, 6, 12, 18].map((h) => (
                     <span
                       key={h}
-                      className="absolute top-0 -translate-x-1/2 tabular-nums first:translate-x-0"
+                      className="absolute top-0 -translate-x-1/2 tabular-nums first:translate-x-0 max-sm:even:hidden"
                       style={{ left: pct(h * 60) }}
                     >
                       {clock(h * 60)}
